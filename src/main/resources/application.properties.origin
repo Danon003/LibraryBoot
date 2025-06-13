@@ -1,0 +1,11 @@
+spring.application.name=
+spring.datasource.driver-class-name=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+spring.jpa.properties.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.show_sql=true
+
+#для работы http методов PUT PATCH DELETE
+spring.mvc.hiddenmethod.filter.enabled=true
